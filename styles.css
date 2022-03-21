@@ -1,0 +1,19 @@
+.header{
+    height: 200px; 
+    background: #1f2937; 
+    color: white; 
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px; 
+    font-size: 32px; 
+    
+}
+
+
+ul {
+    display: flex; 
+    list-style-type: none;
+    gap: 8px; 
+}
