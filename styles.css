@@ -1,19 +1,21 @@
-.header{
-    height: 200px; 
-    background: #1f2937; 
-    color: white; 
-    width: 100%;
-    display: flex; 
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px; 
-    font-size: 32px; 
-    
+.headerContainer{
+    width: 80%;
+    margin: 0 auto; 
+
 }
 
 
-ul {
-    display: flex; 
-    list-style-type: none;
-    gap: 8px; 
+body { 
+    margin: 0; 
+}
+
+
+#right {
+    display:flex; 
+}
+#right img{
+    flex: 1;
+    object-fit: cover;
+    max-height: calc(214px + 1rem);
+    border-radius: 7px;
 }
