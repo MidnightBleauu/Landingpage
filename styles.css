@@ -42,7 +42,7 @@ ul {
 .lists { 
     display: flex; 
     justify-content: space-between;
-    gap: 15px; 
+    gap: 16px; 
 }
 
 .logo { 
