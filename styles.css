@@ -23,6 +23,7 @@
     justify-content: space-around;
     align-items: center;
     padding-top: 10px;
+    font-size: 32px; 
 }
 
 a {
@@ -41,7 +42,7 @@ ul {
 .lists { 
     display: flex; 
     justify-content: space-between;
-    gap: 10px; 
+    gap: 15px; 
 }
 
 .logo { 
@@ -94,9 +95,7 @@ button {
     font-size: 12px;
     font-weight: bold;
     padding: 5px 25px;
-    width: 35%; 
-    margin-top: 10px;
-    margin-left: 135px; 
+    width: 100%;  
 
 }
 
@@ -126,8 +125,10 @@ button {
 
 h2 { 
     display: flex;
-    justify-content: center; 
-    padding: 10px;
+   align-items: center; 
+    padding: 25px;
+    margin:auto; 
+    font-size: 32px;
 }
 
 
@@ -164,16 +165,19 @@ h2 {
     align-items: center;
     background-color: #3882f6; 
     padding: 10px 80px; 
-    margin: 60px 100px; 
     height: 90px;
     border-radius: 7px;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 25px; 
+    margin-bottom: 25px; 
     
 } 
 
 .signup-text {
     display: flex; 
     flex-direction: column;
-    flex: 1; 
     color: #F9FAF8;
     font-size: 18px;
 }
@@ -187,7 +191,8 @@ h2 {
     font-size: 15px;
     font-weight: bold;
     padding: 5px 25px;
-    text-align: center;     
+    text-align: center;    
+    float: right;
 }
 
 .footer {
@@ -195,7 +200,6 @@ h2 {
     justify-content: center;
     background-color: #1f2937;
     color:#ebe5e7; 
-    height: 50px; 
 }
 
 .footer-text {
